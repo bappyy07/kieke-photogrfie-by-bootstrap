@@ -52,11 +52,38 @@ nav a:hover{
 
 .hero-sp{
     color: #8A47F6;
+
 }
 
 /*about us sec*/
+.about{
+    background-color: #f3edfe;
+    gap: 30px;
+}
 
+.forwidth img{
+    width: 250px;
+    object-fit: cover;
+}
+.forwidth1{
+    height: 532px;
+    gap: 20px;
+}
+.forwidth1 img{
+    width: 240px;
+    height: 257px;
+    object-fit: cover;
+}
 
+.large-head{
+    font-size: 48px;
+    font-weight: 900;
+    color: #111111;
+    font-family: 'Nexa', sans-serif;
+}
+.about-p{
+    font-size: 18px;
+}
 
 
 
