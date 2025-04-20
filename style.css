@@ -85,5 +85,46 @@ nav a:hover{
     font-size: 18px;
 }
 
+/*portfolio*/
+.large-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #111111;
+    font-family: 'Nexa', sans-serif;
+}
+.navi{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 10px;
+}
+.navi a{
+    font-size: 18px;
+    color: #333333;
+}
+#one{
+    color: #8A47F6;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+.grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.horizontal{
+    grid-column: auto / span 2;
+}
+.vertical{
+    grid-row: auto / span 2;
+}
+
 
 
