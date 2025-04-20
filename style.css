@@ -148,4 +148,21 @@ nav a:hover{
     background-color: #111111;
 }
 
+/*testimonial sec*/
+
+.test-sec{
+    background-color: #f3edfe;
+}
+.test-sec span{
+    width: 252px;
+    background-color: #f3d4fd;
+    border-radius: 20px;
+    padding: 10px;
+}
+.test-sec i{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 50%;
+}
+
 
