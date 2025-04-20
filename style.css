@@ -198,3 +198,25 @@ nav a:hover{
     cursor: pointer;
     color: white;
 }
+
+/*footer*/
+.foot-sec{
+    max-width: 1920px;
+    background-color: #222222;
+    padding: 70px;
+}
+
+.foot-sec i{
+    color: white;
+}
+.foot-sec a{
+    font-size: 18px;
+    color: white;
+}
+.foot-sec i{
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
