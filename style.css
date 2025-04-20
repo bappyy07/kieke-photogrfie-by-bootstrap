@@ -172,4 +172,29 @@ nav a:hover{
     padding-top: 18px;
 }
 
+/*que-form*/
 
+.touch-sec{
+    background-color: #ede3fe;
+    height: 320px;
+    margin-top: 160px;
+    border-radius: 10px;
+}
+.touch-sec h6{
+    font-weight: 600;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8A47F6;
+
+   
+}
+.touch-sec i{
+    font-size: 25px;
+    margin-left: 9px;
+    margin-top: 7px;
+    cursor: pointer;
+    color: white;
+}
