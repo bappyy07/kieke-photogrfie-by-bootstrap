@@ -1,0 +1,57 @@
+/*tab-responsive*/
+@media (min-width: 768px) and (max-width: 991px) {
+    nav{
+        margin-left: -100px;
+    }
+    nav a{
+        display: none;
+    }
+    .large-text{
+        font-size: 50px;
+    }
+    #hero{
+        margin-top: -100px;
+        margin-left: -50px;
+    }
+    .about{
+        max-width: 900px;
+        gap: 5px;
+        margin: -30px;
+
+        & img{
+            width: 150px;
+        }
+
+        & h1{
+            font-size: 35px;
+        }
+        & p{
+            font-size: 15px;
+        }
+    }
+    #about-sec{
+
+    }
+    .port{
+        margin: 10px;
+    }
+    .navi{
+        gap: 30px;
+    }
+    .price h1{
+        margin-right: 100px;
+    }
+    #card{
+        margin-right : 100px;
+    }
+    .test-sec{
+        
+    }
+}
+
+/*mobile-reponsive*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .touch-sec{
+    }
+}
